@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	min-width: 1500px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.left{
+	z-index: -2;
+	float: left;
+	width: 50%;
+	height: 700px;
+	overflow: hidden;
+}
+.left_one{
+	width: 5%;
+	height: inherit;
+	background-color: rgb(229,103,1);
+	float: left;
+}
+.left_two{
+	width: 100%;
+	height: inherit;
+	background-color: rgb(1,139,134);
+}
+.yuan_one{
+	position: relative;
+	top: 150px;
+	left: 82%;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background-color: rgb(1,150,160);
+}
+.yuan_two{
+	width: 270px;
+	height: 270px;
+	border-radius: 135px;
+	background-color: rgb(234,128,175);
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+.yuan_two p{
+	color: rgb(250,251,252);
+	font-size: 30px;
+	position: relative;
+	top: 120px;
+	left: 35px;
+}
+.right{
+	z-index: 5;
+	width: 47.5%;
+	float: left;
+	height: 700px;
+	overflow: hidden;
+	background-color: rgb(255,255,255);
+	box-shadow: -1px -5px 5px gray;
+}
+.right_one{
+	width: 280px;
+	height: 80px;
+	background-color: rgb(251,214,158);
+	position: relative;
+	top: 270px;
+}
+.right_one p{
+	font-size: 30px;
+	position: relative;
+	top: 15px;
+}
+.right_two{
+         width: 0;
+         height: 0;
+         border-right: 80px solid white;
+         border-top: 40px solid transparent;
+         border-bottom: 40px solid transparent;
+         position: relative;
+         left: 200px;
+         bottom: 40px;
+}
+.right_three{
+	float: right;
+	width: 2.5%;
+	height: 700px;
+	background-color: rgb(106,0,95);
+}
